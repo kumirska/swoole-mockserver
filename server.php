@@ -5,7 +5,7 @@ use App\Request;
 use App\Router;
 use App\Dispatcher;
 
-$http = new Server("0.0.0.0", 9501);
+$http = new Server("0.0.0.0", 9500);
 
 require 'bootstrap/autoload.php';
 

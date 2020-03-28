@@ -4,7 +4,7 @@ Create simple mock server in 3 steps:
     `docker build -f ./Dockerfile -t swoole-php .`
 2. Place your own source files and routes into directory `mocks` or edit default.
 3. Run http server:
-    `docker run --rm -p 9501:9501 -v $(pwd):/app -w /app swoole-php server.php`
+    `docker run --rm -p 9500:9500 -v $(pwd):/app -w /app swoole-php server.php`
     
 Notes:
 
