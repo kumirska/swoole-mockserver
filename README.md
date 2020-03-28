@@ -19,5 +19,4 @@
 
 >Use `Swoole IDE Helper` plugin for better highlighting in PhpStorm IDE.
 
-Swoole documentation:
-    Build swoole environment and init new server [https://www.swoole.co.uk/docs/get-started/try-docker]
+Swoole original documentation: [https://www.swoole.co.uk/docs]
