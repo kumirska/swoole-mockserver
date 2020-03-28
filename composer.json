@@ -1,0 +1,12 @@
+{
+  "name": "kumirska/swoole",
+  "authors": [
+    {
+      "name": "kumirska",
+      "email": "kumirska@yandex.ru"
+    }
+  ],
+  "require": {
+    "ext-json": "*"
+  }
+}
