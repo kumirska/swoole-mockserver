@@ -1,9 +1,16 @@
 Create simple mock server in 3 steps:
 
-1. Build:
+1. Clone repository:
+    `git clone https://github.com/kumirska/swoole-mockserver.git`
+2. Install dependencies:
+    `composer install`
+3. Build swoole server:
     `docker build -f ./Dockerfile -t swoole-php .`
-2. Place your own source files and routes into directory `mocks` or edit default.
-3. Run http server:
+    
+Usage
+
+- Place your own source files and routes into directory `mocks` or edit default.
+- Run http server:
     `docker run --rm -p 9500:9500 -v $(pwd):/app -w /app swoole-php server.php`
     
 Notes:
