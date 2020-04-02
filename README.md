@@ -11,7 +11,8 @@
     
 #### Usage
 
-- Place your own source files and routes into directory `mocks` or edit default.
+- Place your own source files into directory `mocks/sources`.
+- Add your routes into `mocks/routes.php`. Key is route, value is name of json file (w/o extension) in the folder `mocks/sources`.
 - Run http server:
     `docker run --rm -p 9500:9500 -v $(pwd):/app -w /app swoole-php server.php`
     
